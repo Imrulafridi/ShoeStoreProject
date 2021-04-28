@@ -1,8 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import {AppBar, Toolbar} from "@material-ui/core";
-
-
+import React from "react";
+import { Link } from "react-router-dom";
+import { AppBar, Toolbar } from "@material-ui/core";
 
 const Navbar = () => {
   return (
@@ -25,6 +23,6 @@ const Navbar = () => {
       </AppBar>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

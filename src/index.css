@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -16,6 +17,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  text-align: center;
 }
 
 .nav {
@@ -64,4 +69,17 @@ code {
 
 .media {
   height: 250px !important;
+}
+
+.back {
+  text-decoration: none;
+}
+
+.cardcontianer {
+  box-shadow: 10px 10px 8px 10px #888888;
+  margin: 30px 10px;
+  padding: 20px 0;
+}
+.cardcontianer > img {
+  max-width: 350px;
 }

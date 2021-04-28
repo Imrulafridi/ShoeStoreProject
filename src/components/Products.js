@@ -1,14 +1,14 @@
 import React from "react";
-import {Outlet} from 'react-router-dom'
-
+import { Outlet } from "react-router-dom";
 
 const Products = () => {
-
   return (
-    <div >
+    <div>
+      <br />
       <h1>Products</h1>
+      <br />
 
-      <Outlet/>
+      <Outlet />
     </div>
   );
 };
